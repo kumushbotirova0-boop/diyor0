@@ -1,0 +1,673 @@
+*{
+    box-sizing: border-box;
+    margin:0 auto;
+}
+.big{
+    max-width: 1920px;
+}
+.card1{
+    padding-top: 10px;
+    padding-right: 15px;
+    backdrop-filter: blur(30px);
+    color: white;
+    background-color: black;
+    max-width: 1440px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.bgtext{
+    height:auto;
+    font-size: 40px;
+    max-width: 500px;
+    position: absolute;
+    top: 0;
+}
+.topform{
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+}
+.blackimg{
+    object-fit: cover;
+    height: auto;
+    display: flex;
+    margin: auto;
+    width: 100%;
+}
+.btn{
+    margin: unset;
+    color: white;
+    background-color: gold;
+    width:auto;
+    height: 100%;
+    padding: 10px;
+}
+:hover.btn{
+    background-color: white;
+    color: gold;
+}
+.im{left: 0;
+    font-size: 10px;
+    display: flex;
+    
+}
+.h2{
+    color: gold;
+}
+.form{
+    background-color: #1a1a1a;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+.text{
+    display: flex;
+}
+.inpt{
+    color: white;
+    border: solid 2px white;
+    background-color: #1a1a1a;
+    width: 32%;
+    height: 40px;
+}
+.card_2{
+    max-width: 1440px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    background-color: #1a1a1a;
+}
+.s9{
+    width: 100%;
+    display: flex;
+    color: white;
+}
+.ikon{
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+.level1{
+    max-width: 1440px;
+}
+.p2{
+    display: flex;
+}
+.s5{
+    background-color: #1a1a1a;
+    color: white;
+    font-size: 20px;
+}
+.s10{
+    font-size: 15px;
+    color: gold;
+}
+.s1{
+    font-size: 15px;
+    color: gold;
+}
+.s2{
+    color: grey;
+}
+.s3{
+    color: grey;
+}
+.l2text{
+    height: 100%;
+    width: 50%;
+}
+.b1{
+    padding: 15px;
+    margin: unset;
+    width:45%;
+    border: solid 2px orange;
+}
+.b2{
+    padding: 15px;
+    margin: unset;
+    color: orange;
+    width: 45%;
+    background-color: black;
+}
+:hover.b1{
+border: solid 3px black;
+    background-color: orange;
+    color: white;
+}
+:hover.b2{
+    border: solid 3px black;
+    background-color: orange;
+    color: white;
+
+}
+.btn2{
+    justify-content: space-between;
+    display: flex;
+}
+.tkstimg{
+    display: flex;
+    align-items: center;
+}
+.s15{
+    color: gold;
+    font-size: 30px;
+}
+.s12{
+    font-size: 10px;
+}
+.p{
+    width: 100%;
+    text-align: center;
+}
+.l8text1{
+    width: 50%;
+}
+.twol8{
+    display: flex;
+}
+.l8text2{
+    text-align: center;
+    width: 50%;
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+}
+.image{
+    width: 50%;
+}
+.images{
+    width: 100%;
+}
+.imgsoat{
+    position: relative;
+}
+.l2texst{
+    order: 1;
+}
+.soat{
+    z-index: 2;
+    left: 50%;
+    top: 0;
+    position: absolute;
+}
+.card2{
+    max-width: 1440px;
+    position: relative;
+    margin: auto;
+}
+.h5{
+    color: orange;
+    background-color: black;
+    padding: 20px;
+    max-width: 1440px;
+    text-align: center;
+}
+h3{
+    max-width: 1440px;
+    text-align: center;
+}
+.thwel8{
+    display: flex;
+    align-items: center;
+}
+.l8btn1{
+    border: solid 2px gold;
+    background-color: black;
+    color: orange;
+}
+.l8btn2{
+    border: solid 2px gold;
+    background-color: black;
+    color: orange;
+}
+.l8btn3{
+    color: gold;
+    background-color: black;
+    width: 100%;
+}
+.l8card{
+    width: 50%;
+}
+.l8img{
+    width: 50%;
+}
+.spn{
+    font-size: 25px;
+    display: flex;
+}
+.level2{
+    max-width: 1440px;
+}
+.tkstimge{
+    align-items: center;
+    display: flex;
+}
+.level3{
+    max-width: 1440px;
+}
+.level4{
+    max-width: 1440px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-auto-rows: auto;
+    text-align: center;
+}
+.lcard1{
+    width: 100%;
+    color: white;
+    background-color: black;
+}
+.lcard2{
+    width: 100%;
+    color: white;
+    background-color: black;
+}
+.lcard3{
+    width: 100%;
+    color: white;
+    background-color: black;
+}
+.lcard4{
+    width: 100%;
+    color: white;
+    background-color: black;
+}
+.lcard5{
+    width: 100%;
+    color: white;
+    background-color: black;
+}
+.l5card3{
+    width: 100%;
+    color: white;
+    background-color: black;
+}
+.l5card4{
+    width: 100%;
+    color: white;
+    background-color: black;
+}
+.l5card5{
+    width: 100%;
+    color: white;
+    background-color: black;
+}
+:hover.lcard1{
+    color: orange;
+    background-color: white;
+}
+:hover.lcard2{
+    color: orange;
+    background-color: white;
+}
+:hover.lcard3{
+    color:  orange;
+    background-color: white;
+}
+:hover.lcard4{
+    color:  orange;
+    background-color: white;
+}
+:hover.lcard5{
+    color:  orange;
+    background-color: white;
+}
+:hover.l5card3{
+    color: orange;
+    background-color: white;
+}
+:hover.l5card4{
+    color: orange;
+    background-color: white;
+}
+:hover.l5card5{
+    color: orange;
+    background-color: white;
+}
+.l5img{
+    width: 35%;
+}
+.l5text{
+    width: 65%;
+}
+.l4img{
+    display: flex;
+    justify-content: center;
+}
+.l3text{
+    text-align: center;
+    font-size: 40px;
+    width: 50%;
+    background-color: black;
+}
+.l7top{
+    font-size: 25px;
+    margin: auto;
+    max-width: 1440px;
+}
+h6{
+    font-size: 26px;
+}
+.l7btn{
+    color: orange;
+    background-color: black;
+    border: solid 1px orange;
+}
+.l7btn2{
+    border: solid 1px orange;
+}
+.level6{
+    max-width: 1440px;
+    margin: auto;
+}
+.level7{
+    max-width: 1440px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.level8{
+    max-width: 1440px;
+    color: white;
+    background-color: #1a1a1a;
+}
+.level9{
+    color: white;
+    background-color: black;
+    text-align: center;
+    max-width: 1440px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.level10{
+    position: relative;
+    max-width: 1440px;
+}
+.level11{
+    position: relative;
+    max-width: 1440px;
+}
+.level12{
+    text-align: center;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    max-width: 1440px;
+    color: gold;
+}
+body{
+    font-family: "Playwrite GB J Guides", cursive;
+}
+.l12{
+    padding: 5px;
+    width: 100%;
+}
+.l11end{
+    display: flex;
+    align-items: center;
+}
+.l11text{
+    z-index: 2;
+    position: absolute;
+    top: 0;
+    right: 120px;
+    height: auto;
+    width: 35%;
+}
+
+.l10img{
+    max-width:100%;
+    object-fit: cover;
+    
+}
+.l10btn{
+    
+    width: 100%;
+}
+.l10btnend{
+    display: flex;
+    align-items: center;
+    height: 100%;
+    max-width:480px;
+    color: gold;
+    top: 0;
+    left: 0;
+    position: absolute;
+    padding: 20px;
+}
+.l9card{
+    background-color: #000000;
+    width: 100%;
+}
+.l9btn{
+    margin: auto;
+}
+.btn3{
+    Padding:20px;
+    width: 50%;
+}
+.l6img{
+    width: 100%;
+}
+.foto{
+    width: 50%;
+}
+.A3{
+    display: flex;
+    align-items: center;
+}
+.l{
+    background-color: black;
+}
+.l5grid{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    max-width: 1440px;
+    grid-auto-rows: 50px;
+}
+.l5end{
+    display: none;
+}
+.card3{
+    background-color: black;
+    color: gold;
+    display: flex;
+    align-items: center;
+    height: 50%;
+}
+.l5imgtext{
+    max-width: 1440px;
+    display: flex;
+    align-items: center;
+}
+.l11img{
+    max-width:100%;
+    background-image: linear-gradient(#a8bba3d6, #a8a6a5cc), url(Rectangle\ 250.png);
+    background-size: cover;
+    background-position: center;
+}
+.v{
+    width: 20px;
+    height:26px;
+}
+@media screen and (max-width:1200px) {
+    .f{
+        display: none;
+    }
+    .l3text{
+        font-size: 30px;
+    }
+    .level4{
+        grid-template-columns: 1fr 1fr;
+    }
+    .level7{
+        grid-template-columns: 1fr 1fr;
+    }
+    
+}   
+@media screen and (max-width:970px) {
+    .card_2{
+        grid-template-columns: 1fr 1fr;
+    }
+}
+@media screen and (max-width:960px) {
+    .l3text{
+        font-size: 20px;
+    }
+    .f{
+        display: none;
+    }
+    .blackimg{
+        max-width: 960px;
+    }
+    .logotext{
+        display: none;
+    }
+    .bgtext{
+        max-width: 1440px;
+        font-size: 10px;
+    }
+    .spn{
+        font-size: 15px;
+    }
+    .tkstimg{
+        flex-wrap: wrap;
+    }
+    .tkstimge{
+        flex-wrap: wrap;
+    }
+    .image{
+        width: 100%;
+    }
+    .l2text{
+        width: 90%;
+        order: 1;
+    }
+    .l2texst{
+        width: 90%;
+    }
+    .level9{
+        grid-template-columns: 1fr 1fr ;
+    }
+    .l9card{
+        width: 100%;
+    }
+    
+    .l11text{
+        height: au;
+    }
+}
+@media screen and (max-width:700px) {
+    .l10btnend{
+        top: 0;
+    }
+}
+
+@media screen and (max-width:640px) {
+    .mail{
+        display: none;
+    }    
+    
+    .card3{
+        flex-wrap: wrap;
+    }
+    .l3text{
+        order: 1;        
+    }
+    .foto{
+        width: 100%;
+    }
+    .btn3{
+        width: 100%;
+        padding: unset;
+    }
+    .level4{
+        grid-template-columns: 1fr;
+    }
+    .l5grid{
+        grid-template-columns: 1fr;
+    }
+    .l5end{
+        display: block;
+    }
+    .l5imgtext{
+        flex-wrap: wrap;
+    }
+    .l5img{
+        width: 100%;
+    }
+    .l5text{
+        width: 100%;
+    }
+    .lcard5{
+        display: none;
+    }
+    .lcard4{
+        display: none;
+    }
+    .lcard3{
+        display: none;
+    }
+    .level7{
+        text-align: center;
+        grid-template-columns: 1fr;
+    }
+    .l8text2{
+        width: 100%;
+    }
+    .twol8{
+        flex-wrap: wrap;
+    }
+    .l8text1{
+        width: 100%;
+    }
+    .thwel8{
+        flex-wrap: wrap;
+    }
+    .l8card{
+        width: 100%;
+    }
+    .l8img{
+        width: 100%;
+    }
+    .level9{
+        grid-template-columns: 1fr ;
+    }
+    .l9card{
+        width: 100%;
+    }
+    .l10btnend{
+        top: 0;
+    }
+    .level12{
+        flex-wrap: wrap;
+    }
+    .level11{
+        position: unset;
+    }
+    .l11text{
+        width: 100%;
+        position: unset;
+    }
+    
+}
+@media screen and (max-width:480px) {
+    strong{
+        display: none;
+    }
+    .card_2{
+        grid-template-columns: 1fr;
+    }
+    .l2texst{
+        order: 1;
+    }
+    .A3{
+        flex-wrap: wrap;
+    }
+    .a8{
+        width: 100%;
+    }
+    .l10btnend{
+        height: 100%;
+    }
+}
