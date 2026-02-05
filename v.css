@@ -19,9 +19,10 @@
 .bgtext{
     height:auto;
     font-size: 40px;
-    max-width: 500px;
+    width: 45%;
     position: absolute;
     top: 0;
+    left: 160px;
 }
 .topform{
     width: 100%;
@@ -503,6 +504,9 @@ body{
     .level7{
         grid-template-columns: 1fr 1fr;
     }
+    .bgtext{
+        left: 100px;
+    }
     
 }   
 @media screen and (max-width:970px) {
@@ -560,6 +564,9 @@ body{
 @media screen and (max-width:700px) {
     .l10btnend{
         top: 0;
+    }
+    .bgtext{
+        left: 40px;
     }
 }
 
@@ -669,5 +676,8 @@ body{
     }
     .l10btnend{
         height: 100%;
+    }
+    .bgtext{
+        font-size: 10px;
     }
 }
