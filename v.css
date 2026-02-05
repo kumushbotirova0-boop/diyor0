@@ -10,7 +10,7 @@
 }
 .card1{
     padding:20px;
-    backdrop-filter: blur(30px);
+    backdrop-filter: blur(20px);
     color: white;
     background-color: black;
     max-width: 1440px;
@@ -27,6 +27,7 @@
     left: 160px;
 }
 .topform{
+    
     background-color: #1a1a1a;
     padding: 15px;
     width: 100%;
