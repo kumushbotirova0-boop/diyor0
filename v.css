@@ -5,6 +5,9 @@
 .big{
     max-width: 1920px;
 }
+.br1{
+    background-color: black;
+}
 .card1{
     padding:20px;
     backdrop-filter: blur(30px);
@@ -24,6 +27,8 @@
     left: 160px;
 }
 .topform{
+    background-color: #1a1a1a;
+    padding: 15px;
     width: 100%;
     bottom: 0;
 }
@@ -46,7 +51,8 @@
     background-color: white;
     color: gold;
 }
-.im{left: 0;
+.im{
+    left: 0;
     font-size: 10px;
     display: flex;
     
@@ -70,14 +76,15 @@
     width: 32%;
     height: 40px;
 }
-.card_2{
-    padding-top: 1px;
+.card3{
+    padding: 15px;
     max-width: 1440px;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     background-color: #1a1a1a;
 }
 .s9{
+    padding: 5px;
     width: 100%;
     display: flex;
     color: white;
@@ -415,7 +422,6 @@ body{
     height: auto;
     width: 35%;
 }
-
 .l10img{
     max-width:100%;
     object-fit: cover;
