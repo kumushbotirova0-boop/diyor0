@@ -116,9 +116,10 @@
     color: gold;
 }
 .s2{
+    font-size: 20px;
     color: grey;
 }
-.s3{
+.s3{font-size: 20px;
     color: grey;
 }
 .l2text{
@@ -585,7 +586,6 @@ body{
         left: 40px;
     }
 }
-
 @media screen and (max-width:640px) {
     .mail{
         display: none;
