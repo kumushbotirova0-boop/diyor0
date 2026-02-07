@@ -182,6 +182,10 @@ border: solid 3px black;
     display: grid;
     grid-template-columns: 1fr 1fr ;
 }
+.s11{
+    color: gold;
+    font-size: 20px;
+}
 .l8cardtext2{
     border: solid 2px black;
 }
