@@ -140,12 +140,12 @@
     background-color: black;
 }
 :hover.b1{
-border: solid 3px black;
+    border: solid 2px black;
     background-color: orange;
     color: white;
 }
 :hover.b2{
-    border: solid 3px black;
+    border: solid 2px black;
     background-color: orange;
     color: white;
 
