@@ -486,6 +486,13 @@ body{
 .l5end{
     display: none;
 }
+.l3card{
+    background-color: black;
+    color: gold;
+    display: flex;
+    align-items: center;
+    height: 50%;
+}
 .l5imgtext{
     max-width: 1440px;
     display: flex;
@@ -667,6 +674,9 @@ body{
     .l11text{
         width: 100%;
         position: unset;
+    }
+    .l3card{
+        flex-wrap: wrap;
     }
     
 }
