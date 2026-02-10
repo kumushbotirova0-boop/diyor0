@@ -486,13 +486,6 @@ body{
 .l5end{
     display: none;
 }
-.card3{
-    background-color: black;
-    color: gold;
-    display: flex;
-    align-items: center;
-    height: 50%;
-}
 .l5imgtext{
     max-width: 1440px;
     display: flex;
@@ -576,6 +569,9 @@ body{
     
     .l11text{
         height: au;
+    }
+    .card3{
+        grid-template-columns: 1fr 1fr;
     }
 }
 @media screen and (max-width:700px) {
@@ -695,5 +691,8 @@ body{
     }
     .bgtext{
         font-size: 10px;
+    }
+    .card3{
+        grid-template-columns: 1fr;
     }
 }
