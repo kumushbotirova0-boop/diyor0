@@ -220,7 +220,11 @@
     max-width: 1440px;
     text-align: center;
 }
+
 h3{
+    font-size: 30px;
+    color: black;
+    background-color:#f2f2f2;
     max-width: 1440px;
     text-align: center;
 }
@@ -462,6 +466,8 @@ body{
     margin: auto;
 }
 .btn3{
+    color: gold;
+    background-color: black;
     Padding:20px;
     width: 50%;
 }
@@ -606,7 +612,7 @@ body{
     }
     .btn3{
         width: 100%;
-        padding: unset;
+        padding: 8px;
     }
     .level4{
         grid-template-columns: 1fr;
